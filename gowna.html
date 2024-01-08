@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+       
+            <label>Font size</label>
+            <input type="number" id="size">
+            <label>Color </label>
+            <input id="color">
+            <label>Font style</label>
+            <input id="style">
+            <label>Letter spacing</label>
+            <input type="text" id="spacing">
+            <div class="burtony">
+            <button onclick="clear2()">Reset</button> 
+            <button onclick="changeValue1()">Wyślij</button>
+            </div>
+            <label>Border color</label>
+            <input id="bcolor">
+            <label>Border style</label>
+            <input id="bstyle">
+            <label>Border redius</label>
+            <input id="bradius">
+            <div class="burtony">
+            <button onclick="clear3()">Reset</button>
+            <button onclick="changeValue2()">Wyślij</button>
+            </div>
+    </div>
+    <main><div id="result">
+        <p id="border"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit perferendis quas voluptatem similique fugiat ipsa quo minus adipisci consequatur quis est, pariatur illo a, optio totam maiores error molestias rerum, distinctio sint sed quos temporibus. Dignissimos optio facere modi sunt unde cupiditate possimus a odit sed molestiae! Ab ipsa repellat amet <span id="span1">omnis libero</span> cum molestias, facilis dolorum? Sunt placeat id animi tempora perspiciatis debitis nostrum, consectetur quae esse veniam rem error est maiores facere, eligendi iure optio praesentium numquam et. Similique ipsum excepturi assumenda delectus sapiente dignissimos mollitia rerum eligendi magni. Illum rem officia voluptas beatae hic animi, cupiditate aliquid eos at fuga nam quod amet sequi ex perspiciatis omnis impedit neque eaque aspernatur quos debitis velit ab odit. Fuga eum, veritatis repellendus perferendis libero cumque ab! Praesentium dolor unde optio dolore, maxime illo necessitatibus magni ducimus eos labore architecto quaerat nisi aut sapiente, eveniet consequuntur, incidunt id quibusdam nihil vero voluptas? Vel, enim. Minus corrupti, porro quisquam aliquid necessitatibus laudantium consequuntur ab maiores, consequatur placeat repudiandae fugiat? <span id="span2">Cupiditate error odit temporibus unde expedita? Animi nostrum, est obcaecati</span> velit vel commodi reprehenderit eos vitae odit delectus eaque fuga nulla maxime suscipit! Sed qui quod, repudiandae officia ut officiis beatae cum pariatur enim deserunt tempora perspiciatis ad iste illum dolores sapiente libero. Obcaecati voluptatem sit odit dolorem tempore sapiente nostrum ad eum numquam eius porro fuga assumenda necessitatibus, perspiciatis quam corporis quaerat distinctio quod. Delectus hic corporis, perferendis sequi rerum qui, nisi ratione amet est atque nesciunt! Tempore adipisci, aperiam voluptatem officiis ipsum ullam harum velit sint neque ipsam, sapiente dolorum at nihil commodi repellat nesciunt natus inventore illum, hic placeat modi quidem quibusdam accusantium. Asperiores quae natus ut ipsa. Dolorum voluptate, delectus neque facere porro omnis officia explicabo error vel magni voluptatibus rem dolor iure ad aperiam corrupti necessitatibus ab voluptatum ducimus illo qui aliquam et. Nesciunt sint repudiandae molestias itaque! Sunt, hic minus tenetur voluptas dolor autem eum odit veritatis quam harum unde, ex commodi quia consequatur reiciendis porro a officia eaque vel amet. Cupiditate amet quia, vel maxime sequi numquam. Doloremque veniam a fugit aliquam dignissimos perspiciatis officia dolores vitae praesentium accusantium minus consequatur, nostrum vel mollitia ex voluptatibus totam voluptatum illo repudiandae iste cumque? Perferendis quam unde, illo ipsam velit necessitatibus facere, veritatis vero dolore voluptates ullam modi, libero reiciendis dolor omnis. Libero rerum, unde numquam recusandae maxime alias accusamus suscipit. Cupiditate quisquam quibusdam porro saepe explicabo eaque voluptatibus provident iure quam distinctio nisi incidunt asperiores praesentium optio minima delectus molestias adipisci tempora expedita impedit mollitia, tempore veniam numquam! Aliquid quibusdam <span id="span3">repudiandae quas voluptates sequi error totam, fuga eius maiores qui explicabo ipsam et hic labore laborum inventore quisquam libero. Cumque ducimus veritatis vel et dolorem qui sit, aperiam tempore, ratione perspiciatis</span>vitae ad voluptatum ipsa porro doloribus totam ipsum! Voluptatem laborum ad maiores et laboriosam praesentium iusto delectus optio, vero voluptatum ab aliquid amet nesciunt obcaecati quidem autem soluta ipsum exercitationem dolore sint suscipit nobis eveniet fugiat accusamus. Labore aspernatur atque laudantium, rerum doloribus molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit perferendis quas voluptatem similique fugiat ipsa quo minus adipisci consequatur quis est, pariatur illo a, optio totam maiores error molestias rerum, distinctio sint sed quos temporibus. Dignissimos optio facere modi sunt unde cupiditate possimus a odit sed molestiae! Ab ipsa repellat amet omnis libero cum molestias, facilis dolorum? Sunt placeat id animi tempora perspiciatis debitis nostrum, consectetur quae esse veniam rem error est maiores facere, eligendi iure optio praesentium numquam et. Similique ipsum excepturi assumenda delectus sapiente dignissimos mollitia rerum eligendi magni. Illum rem officia voluptas beatae hic animi, cupiditate aliquid eos at fuga nam quod amet sequi ex perspiciatis omnis impedit neque eaque aspernatur quos debitis velit ab odit. Fuga eum, veritatis repellendus perferendis libero cumque ab! Praesentium dolor unde optio dolore, maxime illo necessitatibus magni ducimus eos labore architecto quaerat nisi aut sapiente, eveniet consequuntur, incidunt id quibusdam nihil vero voluptas? Vel, enim. Minus corrupti, porro quisquam aliquid necessitatibus laudantium consequuntur ab maiores, consequatur placeat repudiandae fugiat? Cupiditate error odit temporibus unde expedita? Animi nostrum, est obcaecati velit vel commodi reprehenderit eos vitae odit delectus eaque fuga nulla maxime suscipit! Sed qui quod, repudiandae officia ut officiis beatae cum pariatur enim deserunt tempora perspiciatis ad iste illum dolores sapiente libero. Obcaecati voluptatem sit odit dolorem tempore sapiente nostrum ad eum numquam eius porro fuga assumenda necessitatibus, perspiciatis quam corporis quaerat distinctio quod. Delectus hic corporis, perferendis sequi rerum qui, nisi ratione amet est atque nesciunt! Tempore adipisci, aperiam voluptatem officiis ipsum ullam harum velit sint neque ipsam, sapiente dolorum at nihil commodi repellat nesciunt natus inventore illum, hic placeat modi quidem quibusdam accusantium. Asperiores quae natus ut ipsa. Dolorum voluptate, delectus neque facere porro omnis officia explicabo error vel magni voluptatibus rem dolor iure ad aperiam corrupti necessitatibus ab voluptatum ducimus illo qui aliquam et. Nesciunt sint repudiandae molestias itaque! Sunt, hic minus tenetur voluptas dolor autem eum odit veritatis quam harum unde, ex commodi quia consequatur reiciendis porro a officia eaque vel amet. Cupiditate amet quia, vel maxime sequi numquam. Doloremque veniam a fugit aliquam dignissimos perspiciatis officia dolores vitae praesentium accusantium minus consequatur, nostrum vel mollitia ex voluptatibus totam voluptatum illo repudiandae iste cumque? Perferendis quam unde, illo ipsam velit necessitatibus facere, veritatis vero dolore voluptates ullam modi, libero reiciendis dolor omnis. Libero rerum, unde numquam recusandae maxime alias accusamus suscipit. Cupiditate quisquam quibusdam porro saepe.</p>
+        <div class="Reset"><button>Reset</button></div>
+    </div></main>
+    <div class="sidebar">
+        <label>Font size</label>
+            <input type="number" id="size">
+            <label>Color</label>
+            <input id="color">
+            <label>Font style</label>
+            <input id="style">
+            <label>Letter spacing</label>
+            <input type="text" id="Letter spacing">
+            <label>Border color</label>
+            <input id="bcolor">
+            <label>Border style</label>
+            <input id="bstyle">
+            <label>Border redius</label>
+            <input id="bradius">
+            <label>Border width</label>
+            <input id="bwidth">
+            <div class="burtony">
+            <button onclick="clear4()">Reset</button>
+            <button onclick="changeValue3()">Wyślij</button>
+            </div>
+            <input>
+            <input>
+            <div class="burtony2">
+            <button onclick="changeValue()">Reset</button>
+            <button onclick="changeValue()">Wyślij</button>
+            </div>
+    </div>
+</body>
+<script>
+   function changeValue1(){
+    let Fontsize = document.getElementById("size").value;
+    document.getElementById("result").style.fontSize = Fontsize + "px";
+    let Color = document.getElementById("color").value;
+    document.getElementById("result").style.color = Color;
+    let Fontstyle = document.getElementById("style").value;
+    document.getElementById("result").style.fontStyle = Fontstyle ; 
+    let Letterspacing = document.getElementById("spacing").value;
+    document.getElementById("result").style.letterSpacing = Letterspacing + "px"; 
+   }
+   function clear2(){
+    document.getElementById("result").style.fontSize = "1rem";
+    document.getElementById("result").style.color = "black";
+    document.getElementById("result").style.fontStyle = "normal";
+    document.getElementById("result").style.letterSpacing = "0px";
+   }
+   function changeValue2(){
+    let Bordercolor = document.getElementById("bcolor").value;
+    document.getElementById("border").style.borderColor = Bordercolor;
+    let Borderstyle = document.getElementById("bstyle").value;
+    document.getElementById("border").style.Borderstyle = Borderstyle;
+    let Borderradius = document.getElementById("bradius").value;
+    document.getElementById("border").style.borderRadius = Borderradius; 
+   }
+   function clear3(){
+    document.getElementById("border").style.borderColor = "black";
+    document.getElementById("border").style.Borderstyle = "normal";
+    document.getElementById("border").style.borderRadius = "none";
+   }
+   function changeValue3(){
+    let Fontsize1 = document.getElementById("size").value;
+    document.getElementById("span1").style.fontSize = Fontsize1 + "px";
+    let Color1 = document.getElementById("color").value;
+    document.getElementById("span1").style.color = Color1;
+    let Fontstyle1 = document.getElementById("style").value;
+    document.getElementById("span1").style.fontStyle = Fontstyle1 ; 
+    let Letterspacing1 = document.getElementById("spacing").value;
+    document.getElementById("span1").style.letterSpacing = Letterspacing1 + "px";
+    let Bordercolor1 = document.getElementById("bcolor").value;
+    document.getElementById("span1").style.borderColor = Bordercolor1;
+    let Borderstyle1 = document.getElementById("bstyle").value;
+    document.getElementById("span1").style.Borderstyle = Borderstyle1;
+    let Borderradius1 = document.getElementById("bradius").value;
+    document.getElementById("span1").style.borderRadius = Borderradius1;
+    let Borderwidth1 = document.getElementById("bwidth").value;
+    document.getElementById("span1").style.borderWidth = Borderwidth1;
+    document.getElementById("span2").style.fontSize = Fontsize1 + "px";
+    document.getElementById("span2").style.color = Color1;
+    document.getElementById("span2").style.fontStyle = Fontstyle1 ; 
+    document.getElementById("span2").style.letterSpacing = Letterspacing1 + "px";
+    document.getElementById("span2").style.borderColor = Bordercolor1;
+    document.getElementById("span2").style.Borderstyle = Borderstyle1;
+    document.getElementById("span2").style.borderRadius = Borderradius1;
+    document.getElementById("span2").style.borderWidth = Borderwidth1;
+    document.getElementById("span3").style.fontSize = Fontsize1 + "px";
+    document.getElementById("span3").style.color = Color1;
+    document.getElementById("span3").style.fontStyle = Fontstyle1 ; 
+    document.getElementById("span3").style.letterSpacing = Letterspacing1 + "px";
+    document.getElementById("span3").style.borderColor = Bordercolor1;
+    document.getElementById("span3").style.Borderstyle = Borderstyle1;
+    document.getElementById("span3").style.borderRadius = Borderradius1;
+    document.getElementById("span3").style.borderWidth = Borderwidth1;
+    
+   }
+   function clear4(){
+    document.getElementById("span1").style.fontSize = "1rem";
+    document.getElementById("span1").style.color = "black";
+    document.getElementById("span1").style.fontStyle = "normal";
+    document.getElementById("span1").style.letterSpacing = "0px";
+    document.getElementById("span1").style.borderColor = "black";
+    document.getElementById("span1").style.Borderstyle = "normal";
+    document.getElementById("span1").style.borderRadius = "none";
+    document.getElementById("span1").style.borderWidth = "normal";
+    document.getElementById("span2").style.fontSize = "1rem";
+    document.getElementById("span2").style.color = "black";
+    document.getElementById("span2").style.fontStyle = "normal";
+    document.getElementById("span2").style.letterSpacing = "0px";
+    document.getElementById("span2").style.borderColor = "black";
+    document.getElementById("span2").style.Borderstyle = "normal";
+    document.getElementById("span2").style.borderRadius = "none";
+    document.getElementById("span2").style.borderWidth = "normal";
+    document.getElementById("span3").style.fontSize = "1rem";
+    document.getElementById("span3").style.color = "black";
+    document.getElementById("span3").style.fontStyle = "normal";
+    document.getElementById("span3").style.letterSpacing = "0px";
+    document.getElementById("span3").style.borderColor = "black";
+    document.getElementById("span3").style.Borderstyle = "normal";
+    document.getElementById("span3").style.borderRadius = "none";
+    document.getElementById("span3").style.borderWidth = "normal";
+   }
+</script>
+</html>
